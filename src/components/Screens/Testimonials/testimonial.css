@@ -1,0 +1,1521 @@
+
+
+.testimonialHeader{
+    text-transform:capitalize;
+    font-size:1.4rem;
+    padding-bottom:0rem;
+    color: #cdc7c7;
+}
+
+.sliderContainer{
+    width:100%;    
+}
+
+.innerSliderCont{
+    background:linear-gradient(180deg, #232eca 9.05%, #317ae8 50.74%);
+    border-radius:1rem;
+    width:80%;
+    margin:auto;
+    padding:1.5rem;
+    margin-bottom:3rem;
+}
+
+.profileSection{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.commentBox{
+    width:90%;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    height:90vh;
+    justify-content:start;
+    align-items:center;
+}
+
+.imgCont{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    object-fit:cover;
+    object-position:center;
+    height:8rem;
+    width:8rem;
+}
+
+.imgCont img{
+    width:8rem;
+    height:8rem;
+    border-radius:50%;
+}
+
+.profileSection h4{
+    font-size:1rem;
+    text-align:center;
+    text-transform:uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#cdc7c7;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+.profileSection h5{
+    font-size:1.1rem;
+    text-align:center;
+    font-weight:lighter;
+    text-transform:uppercase;
+    font-family:'Courier New', Courier, monospace;
+    color:#cdc7c7;
+    margin-top:0rem;
+    margin-bottom:1rem;
+}
+
+.messageSection{
+    width:100%;
+}
+
+.messageSection p{
+    text-align:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:0.85rem;
+    color:#cdc7c7;
+    width:80%;
+    margin:auto;
+}
+
+.complaints {
+    margin-top:3rem;
+    padding:2rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:2rem;
+    background:linear-gradient(270deg, #232eca 9.05%, #317ae8 50.74%);
+    width:80%;
+    margin:auto;
+    border-radius:1rem;
+}
+
+.commentName{
+    font-size:0.9rem;
+    text-transform:uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.commentEmail{
+    font-size:0.9rem;
+    text-transform:uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.commentProfession{
+    font-size:0.9rem;
+    text-transform:uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.comments{
+    font-size:0.9rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:flex;
+    flex-direction:column;
+    gap:0rem;
+}
+
+.comments textarea{
+    font-size:0.7rem;
+    padding:1rem;
+}
+
+.submitComment{
+    width:100%;
+    font-size:1.3rem;
+    height:2.7rem;
+    border-radius:1rem;
+    text-transform:uppercase;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#232eca;
+    color: #cdc7c7;
+}
+
+.submitComment:hover{
+    cursor:pointer;
+    background-color:#317ae8;
+    transition:all ease-in-out 0.5s;
+}
+
+.shortReply{
+    color:#cdc7c7;
+    font-size:1.4rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MIN-WIDTH: 320PX */
+
+@media (min-width: 320px) {
+
+    .testimonialHeader{
+        text-transform:capitalize;
+        font-size:1.6rem;
+        padding-bottom:0rem;
+        color: #cdc7c7;
+    }
+
+    .innerSliderCont{
+        background:linear-gradient(180deg, #232eca 9.05%, #317ae8 50.74%);
+        border-radius:1rem;
+        width:80%;
+        margin:auto;
+        padding:1.5rem;
+        margin-bottom:3rem;
+    }
+
+    .profileSection{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .commentBox{
+        width:90%;
+        margin:auto;
+        display:flex;
+        flex-direction:column;
+        height:83vh;
+        justify-content:start;
+        align-items:center;
+    }
+
+    .imgCont{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        object-fit:cover;
+        object-position:center;
+        height:8rem;
+        width:8rem;
+    }
+    
+    .imgCont img{
+        width:8rem;
+        height:8rem;
+        border-radius:50%;
+    }
+
+    .profileSection h4{
+        font-size:1rem;
+        text-align:center;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#cdc7c7;
+        margin-top:1rem;
+        margin-bottom:1rem;
+    }
+    
+    .profileSection h5{
+        font-size:1rem;
+        text-align:center;
+        font-weight:lighter;
+        text-transform:uppercase;
+        font-family:'Courier New', Courier, monospace;
+        color:#cdc7c7;
+        margin-top:0rem;
+        margin-bottom:1rem;
+    }
+
+    .messageSection{
+        width:100%;
+    }
+    
+    .messageSection p{
+        text-align:center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:0.9rem;
+        color:#cdc7c7;
+        width:80%;
+        margin:auto;
+    }
+
+    .complaints {
+        margin-top:3rem;
+        padding:2rem;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        gap:2rem;
+        background:linear-gradient(270deg, #232eca 9.05%, #317ae8 50.74%);
+        width:80%;
+        margin:auto;
+        border-radius:1rem;
+    }
+
+    .commentName{
+        font-size:1.2rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .commentEmail{
+        font-size:1.2rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .commentProfession{
+        font-size:1.2rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .commentInput{
+        height:2rem;
+        font-size:0.9rem;
+    }
+
+    .comments{
+        font-size:1.2rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display:flex;
+        flex-direction:column;
+        gap:0rem;
+    }
+    
+    .comments textarea{
+        font-size:1rem;
+        padding:1rem;
+    }
+
+    .submitComment{
+        width:100%;
+        font-size:1.3rem;
+        height:2.7rem;
+        border-radius:1rem;
+        text-transform:uppercase;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:#232eca;
+        color: #cdc7c7;
+    }
+
+    .submitComment:hover{
+        cursor:pointer;
+        background-color:#317ae8;
+        transition:all ease-in-out 0.5s;
+    }
+    
+    .shortReply{
+        color:#cdc7c7;
+        font-size:1.2rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* MIN-WIDTH: 375PX */
+
+@media (min-width: 375px) {
+
+    .testimonialHeader{
+        text-transform:capitalize;
+        font-size:1.8rem;
+        padding-bottom:0rem;
+        color: #cdc7c7;
+    }
+
+    .innerSliderCont{
+        background:linear-gradient(180deg, #232eca 9.05%, #317ae8 50.74%);
+        border-radius:1rem;
+        width:80%;
+        margin:auto;
+        padding:1.5rem;
+        margin-bottom:3rem;
+    }
+
+    .profileSection{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .commentBox{
+        width:90%;
+        margin:auto;
+        display:flex;
+        flex-direction:column;
+        height:83vh;
+        justify-content:start;
+        align-items:center;
+    }
+
+    .imgCont{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        object-fit:cover;
+        object-position:center;
+        height:8rem;
+        width:8rem;
+    }
+    
+    .imgCont img{
+        width:8rem;
+        height:8rem;
+        border-radius:50%;
+    }
+
+    .profileSection h4{
+        font-size:1rem;
+        text-align:center;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#cdc7c7;
+        margin-top:1rem;
+        margin-bottom:1rem;
+    }
+    
+    .profileSection h5{
+        font-size:1.1rem;
+        text-align:center;
+        font-weight:lighter;
+        text-transform:uppercase;
+        font-family:'Courier New', Courier, monospace;
+        color:#cdc7c7;
+        margin-top:0rem;
+        margin-bottom:1rem;
+    }
+
+    .messageSection{
+        width:100%;
+    }
+    
+    .messageSection p{
+        text-align:center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:1rem;
+        color:#cdc7c7;
+        width:80%;
+        margin:auto;
+    }
+
+    .complaints {
+        margin-top:3rem;
+        padding:2rem;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        gap:2rem;
+        background:linear-gradient(270deg, #232eca 9.05%, #317ae8 50.74%);
+        width:80%;
+        margin:auto;
+        border-radius:1rem;
+    }
+
+    .commentName{
+        font-size:1.3rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .commentEmail{
+        font-size:1.3rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .commentProfession{
+        font-size:1.3rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .commentInput{
+        height:2.2rem;
+        font-size:1.1rem;
+    }
+
+    .comments{
+        font-size:1.3rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display:flex;
+        flex-direction:column;
+        gap:0rem;
+    }
+    
+    .comments textarea{
+        font-size:1rem;
+        padding:1rem;
+    }
+
+    .submitComment{
+        width:100%;
+        font-size:1.3rem;
+        height:2.7rem;
+        border-radius:1rem;
+        text-transform:uppercase;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:#232eca;
+        color: #cdc7c7;
+    }
+
+    .submitComment:hover{
+        cursor:pointer;
+        background-color:#317ae8;
+        transition:all ease-in-out 0.5s;
+    }
+    
+    .shortReply{
+        color:#cdc7c7;
+        font-size:1.3rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MIN-WIDTH:425PX */
+
+@media screen and (min-width: 425px) {
+
+    .testimonialHeader{
+        text-transform:capitalize;
+        font-size:2rem;
+        padding-bottom:0rem;
+        color: #cdc7c7;
+    }
+
+    .innerSliderCont{
+        background:linear-gradient(180deg, #232eca 9.05%, #317ae8 50.74%);
+        border-radius:1rem;
+        width:80%;
+        margin:auto;
+        padding:1.5rem;
+        margin-bottom:3rem;
+    }
+
+    .profileSection{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .slideWrap{
+        /* width:100%;
+        margin:auto;
+        display:flex;
+        flex-direction:column;
+        height:80vh;
+        justify-content:center;
+        align-items:center; */
+    }
+
+    .commentBox{
+        width:80%;
+        margin:auto;
+        display:flex;
+        flex-direction:column;
+        height:80vh;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .imgCont{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        object-fit:cover;
+        object-position:center;
+        height:8.5rem;
+        width:8.5rem;
+    }
+    
+    .imgCont img{
+        width:8.5rem;
+        height:8.5rem;
+        border-radius:50%;
+    }
+
+    .profileSection h4{
+        font-size:1rem;
+        text-align:center;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#cdc7c7;
+        margin-top:1rem;
+        margin-bottom:1rem;
+    }
+    
+    .profileSection h5{
+        font-size:0.9rem;
+        text-align:center;
+        font-weight:lighter;
+        text-transform:uppercase;
+        font-family:'Courier New', Courier, monospace;
+        color:#cdc7c7;
+        margin-top:0rem;
+        margin-bottom:1rem;
+    }
+
+    .messageSection{
+        width:100%;
+    }
+    
+    .messageSection p{
+        text-align:center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:1rem;
+        color:#cdc7c7;
+        width:80%;
+        margin:auto;
+    }
+
+    .complaints {
+        margin-top:3rem;
+        padding:2rem;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        gap:2rem;
+        background:linear-gradient(270deg, #232eca 9.05%, #317ae8 50.74%);
+        width:80%;
+        margin:auto;
+        border-radius:1rem;
+    }
+
+    .commentName{
+        font-size:1.3rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .commentEmail{
+        font-size:1.3rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .commentProfession{
+        font-size:1.3rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .commentInput{
+        height:2.4rem;
+        font-size:1.2rem;
+    }
+
+    .comments{
+        font-size:1.3rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display:flex;
+        flex-direction:column;
+        gap:0rem;
+    }
+    
+    .comments textarea{
+        font-size:1.1rem;
+        padding:1rem;
+    }
+
+    .submitComment{
+        width:100%;
+        font-size:1.3rem;
+        height:2.7rem;
+        border-radius:1rem;
+        text-transform:uppercase;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:#232eca;
+        color: #cdc7c7;
+    }
+
+    .submitComment:hover{
+        cursor:pointer;
+        background-color:#317ae8;
+        transition:all ease-in-out 0.5s;
+    }
+    
+    .shortReply{
+        color:#cdc7c7;
+        font-size:1.4rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* MIN-WIDTH:640PX */
+
+@media screen and (min-width: 640px) {
+
+    .testimonialHeader{
+        text-transform:capitalize;
+        font-size:2.2rem;
+        padding-bottom:2rem;
+        color: #cdc7c7;
+    }
+    
+    .innerSliderCont{
+        background:linear-gradient(180deg, #232eca 9.05%, #317ae8 50.74%);
+        border-radius:1rem;
+        width:80%;
+        margin:auto;
+        padding:3rem;
+        margin-bottom:3rem;
+    }
+    
+    /* .slick-track{
+        display:flex;
+        gap:2rem
+    } */
+    
+    .commentBox{
+        /* height:65vh; */
+        width:100%;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        padding:2rem;
+    }
+    
+    .profileSection{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+    
+    .imgCont{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        object-fit:cover;
+        object-position:center;
+        height:8.5rem;
+        width:8.5rem;
+    }
+    
+    .imgCont img{
+        width:8.5rem;
+        height:8.5rem;
+        border-radius:50%;
+    }
+
+    .profileSection{
+        display:flex;
+        flex-direction:column;
+    }
+    
+    .profileSection h4{
+        font-size:1.2rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#cdc7c7;
+        width:70%;
+        margin-top:1rem;
+        margin-bottom:1rem;
+    }
+    
+    .profileSection h5{
+        font-size:1rem;
+        font-weight:lighter;
+        text-transform:uppercase;
+        font-family:'Courier New', Courier, monospace;
+        color:#cdc7c7;
+        padding-top:0.5rem;
+        margin-top:0rem;
+        margin-bottom:1rem;
+    }
+    
+    .messageSection{
+        width:60%;
+    }
+    
+    .messageSection p{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:1.1rem;
+        color:#cdc7c7;
+        /* line-height:1.2rem; */
+    }
+    
+    .complaints {
+        margin-top:3rem;
+        padding:2rem;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        gap:2rem;
+        background:linear-gradient(270deg, #232eca 9.05%, #317ae8 50.74%);
+        width:80%;
+        margin:auto;
+        border-radius:1rem;
+    }
+    
+    .commentName{
+        font-size:1.5rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .commentEmail{
+        font-size:1.5rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .commentProfession{
+        font-size:1.5rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .commentInput{
+        height:2.8rem;
+        font-size:1.3rem;
+    }
+    
+    .comments{
+        font-size:1.5rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display:flex;
+        gap:1rem;
+    }
+    
+    .comments textarea{
+        font-size:1.3rem;
+        padding:1rem;
+    }
+    
+    .submitComment{
+        font-size:1.5rem;
+        width:10rem;
+        height:2.5rem;
+        border-radius:1rem;
+        text-transform:uppercase;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:#232eca;
+        color: #cdc7c7;
+    }
+    
+    .submitComment:hover{
+        cursor:pointer;
+        background-color:#317ae8;
+        transition:all ease-in-out 0.5s;
+    }
+    
+    .shortReply{
+        font-size:1.6rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+
+
+
+
+
+
+
+/* MIN-WIDTH:768PX */
+
+@media screen and (min-width: 768px) {
+    
+    .testimonialHeader{
+        text-transform:capitalize;
+        font-size:2.3rem;
+        padding-bottom:2rem;
+        color: #cdc7c7;
+    }
+    
+    .innerSliderCont{
+        background:linear-gradient(180deg, #232eca 9.05%, #317ae8 50.74%);
+        border-radius:1rem;
+        width:80%;
+        margin:auto;
+        padding:3rem;
+        margin-bottom:3rem;
+    }
+    
+    /* .slick-track{
+        display:flex;
+        gap:2rem
+    } */
+    
+    .profileSection{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+    
+    .commentBox{
+        /* height:60vh; */
+        width:100%;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        padding:2rem;
+    }
+    
+    .imgCont{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        object-fit:cover;
+        object-position:center;
+        height:8.5rem;
+        width:8.5rem;
+    }
+    
+    .imgCont img{
+        width:8.5rem;
+        height:8.5rem;
+        border-radius:50%;
+    }
+    
+    .profileSection h4{
+        font-size:1.3rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#cdc7c7;
+        width:70%
+    }
+    
+    .profileSection h5{
+        font-size:1.1rem;
+        font-weight:lighter;
+        text-transform:uppercase;
+        font-family:'Courier New', Courier, monospace;
+        color:#cdc7c7;
+        padding-top:0.5rem;
+    }
+    
+    .messageSection{
+        width:60%;
+    }
+    
+    .messageSection p{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:1.2rem;
+        color:#cdc7c7;
+    }
+    
+    .complaints {
+        margin-top:3rem;
+        padding:2rem;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        gap:2rem;
+        background:linear-gradient(270deg, #232eca 9.05%, #317ae8 50.74%);
+        width:80%;
+        margin:auto;
+        border-radius:1rem;
+    }
+    
+    .commentName{
+        font-size:1.7rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .commentEmail{
+        font-size:1.7rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .commentProfession{
+        font-size:1.7rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .commentInput{
+        height:2.8rem;
+        font-size:1.4rem;
+    }
+    
+    .comments{
+        font-size:1.6rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display:flex;
+        gap:1rem;
+    }
+    
+    .comments textarea{
+        font-size:1.4rem;
+        padding:1rem;
+    }
+    
+    .submitComment{
+        font-size:1.8rem;
+        width:10rem;
+        height:2.7rem;
+        border-radius:1rem;
+        text-transform:uppercase;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:#232eca;
+        color: #cdc7c7;
+    }
+    
+    .submitComment:hover{
+        cursor:pointer;
+        background-color:#317ae8;
+        transition:all ease-in-out 0.5s;
+    }
+    
+    .shortReply{
+        font-size:1.7rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+
+
+
+
+
+
+
+/* MIN-WIDTH: 992PX */
+
+@media screen and (min-width: 992px) {
+
+    .testimonialHeader{
+        text-transform:capitalize;
+        font-size:2.5rem;
+        padding-bottom:2.5rem;
+        color: #cdc7c7;
+    }
+    
+    .innerSliderCont{
+        background:linear-gradient(180deg, #232eca 9.05%, #317ae8 50.74%);
+        border-radius:1rem;
+        width:80%;
+        margin:auto;
+        padding:3rem;
+        margin-bottom:3rem;
+    }
+    
+    /* .slick-track{
+        display:flex;
+        gap:2rem
+    } */
+    
+    .profileSection{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+    
+    .commentBox{
+        /* height:50vh; */
+        width:100%;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        padding:2rem;
+    }
+    
+    .imgCont{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        object-fit:cover;
+        object-position:center;
+        height:9rem;
+        width:9rem;
+    }
+    
+    .imgCont img{
+        width:9rem;
+        height:9rem;
+        border-radius:50%;
+    }
+    
+    .profileSection h4{
+        font-size:1.4rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#cdc7c7;
+        width:70%
+    }
+    
+    .profileSection h5{
+        font-size:1.1rem;
+        font-weight:lighter;
+        text-transform:uppercase;
+        font-family:'Courier New', Courier, monospace;
+        color:#cdc7c7;
+        padding-top:1rem;
+    }
+    
+    .messageSection{
+        width:60%;
+    }
+    
+    .messageSection p{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:1.3rem;
+        color:#cdc7c7;
+    }
+    
+    .complaints {
+        margin-top:3rem;
+        padding:2rem;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        gap:2rem;
+        background:linear-gradient(270deg, #232eca 9.05%, #317ae8 50.74%);
+        width:80%;
+        margin:auto;
+        border-radius:1rem;
+    }
+    
+    .commentName{
+        font-size:1.8rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .commentEmail{
+        font-size:1.8rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .commentProfession{
+        font-size:1.8rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .commentInput{
+        height:2.8rem;
+        font-size:1.5rem;
+    }
+    
+    .comments{
+        font-size:1.8rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display:flex;
+        gap:1rem;
+    }
+    
+    .comments textarea{
+        font-size:1.7rem;
+        padding:1rem;
+    }
+    
+    .submitComment{
+        font-size:2rem;
+        width:10rem;
+        height:2.7rem;
+        border-radius:1rem;
+        text-transform:uppercase;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:#232eca;
+        color: #cdc7c7;
+    }
+    
+    .submitComment:hover{
+        cursor:pointer;
+        background-color:#317ae8;
+        transition:all ease-in-out 0.5s;
+    }
+    
+    .shortReply{
+        font-size:1.8rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+
+
+
+
+
+
+
+/* MIN-WIDTH: 1024PX */
+
+@media screen and (min-width: 1024px) {
+
+    .testimonialHeader{
+        text-transform:capitalize;
+        font-size:2.7rem;
+        padding-bottom:2.5rem;
+        color: #cdc7c7;
+    }
+    
+    .innerSliderCont{
+        background:linear-gradient(180deg, #232eca 9.05%, #317ae8 50.74%);
+        border-radius:1rem;
+        width:80%;
+        margin:auto;
+        padding:3rem;
+        margin-bottom:3rem;
+    }
+    
+    /* .slick-track{
+        display:flex;
+        gap:2rem
+    } */
+    
+    .profileSection{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+    
+    .commentBox{
+        /* height:50vh; */
+        width:100%;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        padding:2rem;
+    }
+    
+    .imgCont{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        object-fit:cover;
+        object-position:center;
+        height:10rem;
+        width:10rem;
+    }
+    
+    .imgCont img{
+        width:10rem;
+        height:10rem;
+        border-radius:50%;
+    }
+    
+    .profileSection h4{
+        font-size:1.6rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#cdc7c7;
+    }
+    
+    .profileSection h5{
+        font-size:1.1rem;
+        font-weight:lighter;
+        text-transform:uppercase;
+        font-family:'Courier New', Courier, monospace;
+        color:#cdc7c7;
+        padding-top:1rem;
+    }
+    
+    .messageSection{
+        width:60%;
+    }
+    
+    .messageSection p{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:1.4rem;
+        color:#cdc7c7;
+    }
+    
+    .complaints {
+        margin-top:3rem;
+        padding:2rem;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        gap:2rem;
+        background:linear-gradient(270deg, #232eca 9.05%, #317ae8 50.74%);
+        width:80%;
+        margin:auto;
+        border-radius:1rem;
+    }
+    
+    .commentName{
+        font-size:1.9rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .commentEmail{
+        font-size:1.9rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .commentProfession{
+        font-size:1.9rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .commentInput{
+        height:3rem;
+        font-size:1.6rem;
+    }
+    
+    .comments{
+        font-size:1.9rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display:flex;
+        gap:1rem;
+    }
+    
+    .comments textarea{
+        font-size:1.7rem;
+        padding:1rem;
+    }
+    
+    .submitComment{
+        font-size:2.3rem;
+        width:10rem;
+        height:3rem;
+        border-radius:1rem;
+        text-transform:uppercase;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:#232eca;
+        color: #cdc7c7;
+    }
+    
+    .submitComment:hover{
+        cursor:pointer;
+        background-color:#317ae8;
+        transition:all ease-in-out 0.5s;
+    }
+    
+    .shortReply{
+        font-size:1.9rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* MIN-WIDTH: 1200PX */
+
+@media screen and (min-width:1200px) {
+
+    .testimonialHeader{
+        text-transform:capitalize;
+        font-size:3rem;
+        padding-bottom: 3rem;
+        color: #cdc7c7;
+    }
+    
+    .innerSliderCont{
+        background:linear-gradient(180deg, #232eca 9.05%, #317ae8 50.74%);
+        border-radius:1rem;
+        width:80%;
+        margin:auto;
+        padding:3rem;
+        margin-bottom:3rem;
+    }
+    
+    /* .slick-track{
+        display:flex;
+        gap:2rem
+    } */
+    
+    .profileSection{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+    
+    .commentBox{
+        /* height:50vh; */
+        width:100%;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        padding:2rem;
+    }
+    
+    .imgCont{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        object-fit:cover;
+        object-position:center;
+        height:12rem;
+        width:12rem;
+    }
+    
+    .imgCont img{
+        width:12rem;
+        height:12rem;
+        border-radius:50%;
+    }
+    
+    .profileSection h4{
+        font-size:1.7rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#cdc7c7;
+    }
+    
+    .profileSection h5{
+        font-size:1.2rem;
+        font-weight:lighter;
+        text-transform:uppercase;
+        font-family:'Courier New', Courier, monospace;
+        color:#cdc7c7;
+        padding-top:1rem;
+    }
+    
+    .messageSection{
+        width:60%;
+    }
+    
+    .messageSection p{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:25px;
+        color:#cdc7c7;
+    }
+    
+    .complaints {
+        margin-top:3rem;
+        padding:2rem;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        gap:2rem;
+        background:linear-gradient(270deg, #232eca 9.05%, #317ae8 50.74%);
+        width:80%;
+        margin:auto;
+        border-radius:1rem;
+    }
+    
+    .commentName{
+        font-size:2rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .commentEmail{
+        font-size:2rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .commentProfession{
+        font-size:2rem;
+        text-transform:uppercase;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .commentInput{
+        height:3rem;
+        font-size:1.7rem;
+    }
+    
+    .comments{
+        font-size:2rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display:flex;
+        gap:1rem;
+    }
+    
+    .comments textarea{
+        font-size:2rem;
+        padding:1rem;
+    }
+    
+    .submitComment{
+        font-size:2.5rem;
+        width:10rem;
+        height:3.5rem;
+        border-radius:1rem;
+        text-transform:uppercase;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:#232eca;
+        color: #cdc7c7;
+    }
+    
+    .submitComment:hover{
+        cursor:pointer;
+        background-color:#317ae8;
+        transition:all ease-in-out 0.5s;
+    }
+    
+    .shortReply{
+        font-size:2rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}

@@ -1,0 +1,829 @@
+
+.access{
+    text-transform:capitalize;
+    font-size:1.5rem;
+}
+
+.theContacts{
+    width:80%;
+    margin:auto;
+    padding-top:0rem;
+}
+
+.facebookCont{
+    display:flex;
+    align-items:center;
+    gap:1rem;
+    height:3rem;
+}
+
+.facebook {
+    display:flex;
+    align-items:center;
+    gap:0.6rem;
+    font-size:1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#2a1dd7;
+}
+
+.facebookInfo{
+    text-transform:capitalize;
+    font-size:1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#2a1dd7;
+}
+
+.whatsappCont{
+    display:flex;
+    align-items:center;
+    gap:1rem;
+    padding-top:2rem;
+    height:3rem;
+}
+
+.whatsapp{
+    display:flex;
+    align-items:center;
+    gap:0.6rem;
+    font-size:1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#0fd113;
+}
+
+.whatsappInfo{
+    text-transform:capitalize;
+    font-size:1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#0fd113;
+}
+
+.twitterCont{
+    display:flex;
+    align-items:center;
+    gap:1rem;
+    padding-top:2rem;
+    height:3rem;
+}
+
+.twitter{
+    display:flex;
+    align-items:center;
+    gap:0.6rem;
+    font-size:1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#0dbbd6;
+}
+
+.twitterInfo{
+    text-transform:capitalize;
+    font-size:1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#0dbbd6;
+}
+
+
+/* MIN-WIDTH: 320PX */
+
+@media screen and (min-width: 320px){
+
+    .access{
+        text-transform:capitalize;
+        font-size:1.7rem;
+    }
+    
+    .theContacts{
+        width:80%;
+        margin:auto;
+        padding-top:0rem;
+    }
+    
+    .facebookCont{
+        display:flex;
+        align-items:center;
+        gap:1rem;
+        height:3rem;
+    }
+    
+    .facebook {
+        display:flex;
+        align-items:center;
+        gap:0.6rem;
+        font-size:1.3rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#2a1dd7;
+    }
+    
+    .facebookInfo{
+        text-transform:capitalize;
+        font-size:1.3rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#2a1dd7;
+    }
+    
+    .whatsappCont{
+        display:flex;
+        align-items:center;
+        gap:1rem;
+        padding-top:2rem;
+        height:3rem;
+    }
+    
+    .whatsapp{
+        display:flex;
+        align-items:center;
+        gap:0.6rem;
+        font-size:1.3rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0fd113;
+    }
+    
+    .whatsappInfo{
+        text-transform:capitalize;
+        font-size:1.3rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0fd113;
+    }
+    
+    .twitterCont{
+        display:flex;
+        align-items:center;
+        gap:1rem;
+        padding-top:2rem;
+        height:3rem;
+    }
+    
+    .twitter{
+        display:flex;
+        align-items:center;
+        gap:0.6rem;
+        font-size:1.3rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0dbbd6;
+    }
+    
+    .twitterInfo{
+        text-transform:capitalize;
+        font-size:1.3rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0dbbd6;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* MIN-WIDTH: 375PX */
+
+@media screen and (min-width: 375px){
+    
+    .access{
+        text-transform:capitalize;
+        font-size:2rem;
+    }
+    
+    .theContacts{
+        width:80%;
+        margin:auto;
+        padding-top:0rem;
+    }
+    
+    .facebookCont{
+        display:flex;
+        align-items:center;
+        gap:1rem;
+        height:3rem;
+    }
+    
+    .facebook {
+        display:flex;
+        align-items:center;
+        gap:0.6rem;
+        font-size:1.5rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#2a1dd7;
+    }
+    
+    .facebookInfo{
+        text-transform:capitalize;
+        font-size:1.5rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#2a1dd7;
+    }
+    
+    .whatsappCont{
+        display:flex;
+        align-items:center;
+        gap:1rem;
+        padding-top:2rem;
+        height:3rem;
+    }
+    
+    .whatsapp{
+        display:flex;
+        align-items:center;
+        gap:0.6rem;
+        font-size:1.5rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0fd113;
+    }
+    
+    .whatsappInfo{
+        text-transform:capitalize;
+        font-size:1.5rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0fd113;
+    }
+    
+    .twitterCont{
+        display:flex;
+        align-items:center;
+        gap:1rem;
+        padding-top:2rem;
+        height:3rem;
+    }
+    
+    .twitter{
+        display:flex;
+        align-items:center;
+        gap:0.6rem;
+        font-size:1.5rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0dbbd6;
+    }
+    
+    .twitterInfo{
+        text-transform:capitalize;
+        font-size:1.5rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0dbbd6;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* MIN-WIDTH: 425PX */
+
+@media screen and (min-width: 425px){
+    
+    .access{
+        text-transform:capitalize;
+        font-size:2.5rem;
+    }
+    
+    .theContacts{
+        width:80%;
+        margin:auto;
+        padding-top:0rem;
+    }
+    
+    .facebookCont{
+        display:flex;
+        align-items:center;
+        gap:1.5rem;
+        height:3rem;
+    }
+    
+    .facebook {
+        display:flex;
+        align-items:center;
+        gap:0.6rem;
+        font-size:1.7rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#2a1dd7;
+    }
+    
+    .facebookInfo{
+        text-transform:capitalize;
+        font-size:1.7rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#2a1dd7;
+    }
+    
+    .whatsappCont{
+        display:flex;
+        align-items:center;
+        gap:1.5rem;
+        padding-top:2rem;
+        height:3rem;
+    }
+    
+    .whatsapp{
+        display:flex;
+        align-items:center;
+        gap:0.6rem;
+        font-size:1.7rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0fd113;
+    }
+    
+    .whatsappInfo{
+        text-transform:capitalize;
+        font-size:1.7rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0fd113;
+    }
+    
+    .twitterCont{
+        display:flex;
+        align-items:center;
+        gap:1.5rem;
+        padding-top:2rem;
+        height:3rem;
+    }
+    
+    .twitter{
+        display:flex;
+        align-items:center;
+        gap:0.6rem;
+        font-size:1.7rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0dbbd6;
+    }
+    
+    .twitterInfo{
+        text-transform:capitalize;
+        font-size:1.7rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0dbbd6;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* MIN-WIDTH: 640PX */
+
+@media screen and (min-width: 640px){
+    
+    .access{
+        text-transform:capitalize;
+        font-size:3rem;
+    }
+    
+    .theContacts{
+        width:80%;
+        margin:auto;
+        padding-top:3rem;
+    }
+    
+    .facebookCont{
+        display:flex;
+        align-items:center;
+        gap:1.7rem;
+        height:6rem;
+    }
+    
+    .facebook {
+        display:flex;
+        align-items:center;
+        gap:0.7rem;
+        font-size:2rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#2a1dd7;
+    }
+    
+    .facebookInfo{
+        text-transform:capitalize;
+        font-size:2rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#2a1dd7;
+    }
+    
+    .whatsappCont{
+        display:flex;
+        align-items:center;
+        gap:1.7rem;
+        padding-top:2rem;
+        height:6rem;
+    }
+    
+    .whatsapp{
+        display:flex;
+        align-items:center;
+        gap:0.7rem;
+        font-size:2rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0fd113;
+    }
+    
+    .whatsappInfo{
+        text-transform:capitalize;
+        font-size:2rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0fd113;
+    }
+    
+    .twitterCont{
+        display:flex;
+        align-items:center;
+        gap:1.7rem;
+        padding-top:2rem;
+        height:6rem;
+    }
+    
+    .twitter{
+        display:flex;
+        align-items:center;
+        gap:0.7rem;
+        font-size:2rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0dbbd6;
+    }
+    
+    .twitterInfo{
+        text-transform:capitalize;
+        font-size:2rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0dbbd6;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* MIN-WIDTH: 768PX */
+
+@media screen and (min-width: 768px){
+    
+    .access{
+        text-transform:capitalize;
+        font-size:3.3rem;
+    }
+    
+    .theContacts{
+        width:80%;
+        margin:auto;
+        padding-top:3rem;
+    }
+    
+    .facebookCont{
+        display:flex;
+        align-items:center;
+        gap:2.3rem
+    }
+    
+    .facebook {
+        display:flex;
+        align-items:center;
+        gap:0.7rem;
+        font-size:2.3rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#2a1dd7;
+    }
+    
+    .facebookInfo{
+        text-transform:capitalize;
+        font-size:2.3rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#2a1dd7;
+    }
+    
+    .whatsappCont{
+        display:flex;
+        align-items:center;
+        gap:2.3rem;
+        padding-top: 2rem;
+    }
+    
+    .whatsapp{
+        display:flex;
+        align-items:center;
+        gap:0.7rem;
+        font-size:2.3rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0fd113;
+    }
+    
+    .whatsappInfo{
+        text-transform:capitalize;
+        font-size:2.3rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0fd113;
+    }
+    
+    .twitterCont{
+        display:flex;
+        align-items:center;
+        gap:2.3rem;
+        padding-top: 2rem;
+    }
+    
+    .twitter{
+        display:flex;
+        align-items:center;
+        gap:0.7rem;
+        font-size:2.3rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0dbbd6;
+    }
+    
+    .twitterInfo{
+        text-transform:capitalize;
+        font-size:2.3rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0dbbd6;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MIN-WIDTH: 992PX */
+
+@media screen and (min-width: 992px){
+    
+    .access{
+        text-transform:capitalize;
+        font-size:3.5rem;
+    }
+    
+    .theContacts{
+        width:80%;
+        margin:auto;
+        padding-top:3rem;
+    }
+    
+    .facebookCont{
+        display:flex;
+        align-items:center;
+        gap:2.5rem
+    }
+    
+    .facebook {
+        display:flex;
+        align-items:center;
+        gap:0.9rem;
+        font-size:2.5rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#2a1dd7;
+    }
+    
+    .facebookInfo{
+        text-transform:capitalize;
+        font-size:2.5rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#2a1dd7;
+    }
+    
+    .whatsappCont{
+        display:flex;
+        align-items:center;
+        gap:2.5rem;
+        padding-top: 2rem;
+    }
+    
+    .whatsapp{
+        display:flex;
+        align-items:center;
+        gap:0.9rem;
+        font-size:2.5rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0fd113;
+    }
+    
+    .whatsappInfo{
+        text-transform:capitalize;
+        font-size:2.5rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0fd113;
+    }
+    
+    .twitterCont{
+        display:flex;
+        align-items:center;
+        gap:2.5rem;
+        padding-top: 2rem;
+    }
+    
+    .twitter{
+        display:flex;
+        align-items:center;
+        gap:0.9rem;
+        font-size:2.5rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0dbbd6;
+    }
+    
+    .twitterInfo{
+        text-transform:capitalize;
+        font-size:2.5rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0dbbd6;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* MIN-WIDTH: 1024PX */
+
+@media screen and (min-width: 1024px){
+
+    .access{
+        text-transform:capitalize;
+        font-size:3.7rem;
+    }
+    
+    .theContacts{
+        width:80%;
+        margin:auto;
+        padding-top:3rem;
+    }
+    
+    .facebookCont{
+        display:flex;
+        align-items:center;
+        gap:3rem
+    }
+    
+    .facebook {
+        display:flex;
+        align-items:center;
+        gap:0.9rem;
+        font-size:2.7rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#2a1dd7;
+    }
+    
+    .facebookInfo{
+        text-transform:capitalize;
+        font-size:2.7rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#2a1dd7;
+    }
+    
+    .whatsappCont{
+        display:flex;
+        align-items:center;
+        gap:3rem;
+        padding-top: 2rem;
+    }
+    
+    .whatsapp{
+        display:flex;
+        align-items:center;
+        gap:0.9rem;
+        font-size:2.7rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0fd113;
+    }
+    
+    .whatsappInfo{
+        text-transform:capitalize;
+        font-size:2.7rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0fd113;
+    }
+    
+    .twitterCont{
+        display:flex;
+        align-items:center;
+        gap:3rem;
+        padding-top: 2rem;
+    }
+    
+    .twitter{
+        display:flex;
+        align-items:center;
+        gap:0.9rem;
+        font-size:2.7rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0dbbd6;
+    }
+    
+    .twitterInfo{
+        text-transform:capitalize;
+        font-size:2.7rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0dbbd6;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* MIN-WIDTH: 1200PX */
+
+@media screen and (min-width: 1200px){
+
+    .access{
+        text-transform:capitalize;
+        font-size:4rem;
+    }
+    
+    .theContacts{
+        width:80%;
+        margin:auto;
+        padding-top:3rem;
+    }
+    
+    .facebookCont{
+        display:flex;
+        align-items:center;
+        gap:3rem
+    }
+    
+    .facebook {
+        display:flex;
+        align-items:center;
+        gap:1rem;
+        font-size:3rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#2a1dd7;
+    }
+    
+    .facebookInfo{
+        text-transform:capitalize;
+        font-size:3rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#2a1dd7;
+    }
+    
+    .whatsappCont{
+        display:flex;
+        align-items:center;
+        gap:3rem;
+        padding-top: 2rem;
+    }
+    
+    .whatsapp{
+        display:flex;
+        align-items:center;
+        gap:1rem;
+        font-size:3rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0fd113;
+    }
+    
+    .whatsappInfo{
+        text-transform:capitalize;
+        font-size:3rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0fd113;
+    }
+    
+    .twitterCont{
+        display:flex;
+        align-items:center;
+        gap:3rem;
+        padding-top: 2rem;
+    }
+    
+    .twitter{
+        display:flex;
+        align-items:center;
+        gap:1rem;
+        font-size:3rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0dbbd6;
+    }
+    
+    .twitterInfo{
+        text-transform:capitalize;
+        font-size:3rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#0dbbd6;
+    }
+}

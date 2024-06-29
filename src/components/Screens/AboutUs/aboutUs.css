@@ -1,0 +1,58 @@
+
+
+.aboutHeader{
+    text-transform:capitalize;
+    text-align:center;
+}
+
+.aboutMessage{
+    width:80%;
+    margin:auto;
+    font-size:33px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top:2rem;
+}
+
+
+@media (max-width: 768px) {
+
+    .aboutHeader{
+        font-size:29px;
+    }
+    
+    .aboutMessage{
+        font-size:24px;
+    }
+}
+
+
+
+
+@media (max-width: 425px) {
+
+    .aboutHeader{
+        font-size:24px;
+        width:80%;
+        margin:auto;
+    }
+    
+    .aboutMessage{
+        font-size:22px;
+        text-align:center;
+    }
+}
+
+
+
+
+@media (max-width: 375px) {
+
+    .aboutHeader{
+        font-size:23px;
+    }
+    
+    .aboutMessage{
+        font-size:20px;
+        text-align:center;
+    }
+}
