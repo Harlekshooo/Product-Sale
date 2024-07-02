@@ -59,11 +59,11 @@
     position:absolute;
     width:65%;
     right:5rem;
-    bottom:1.4rem;
+    top:13rem;
     background-color:#2a2828;
     border-radius:1rem;
     z-index:3;
-    max-height:60vh;
+    min-height:10vh;
     overflow-y:scroll;
 }
 
@@ -329,11 +329,11 @@
         position:absolute;
         width:65%;
         right:7rem;
-        bottom:1.4rem;
+        top:14rem;
         background-color:#2a2828;
         border-radius:1rem;
         z-index:3;
-        max-height:60vh;
+        min-height:10vh;
         overflow-y:scroll;
     }
 
@@ -601,11 +601,11 @@
         position:absolute;
         width:50%;
         right:11rem;
-        bottom:0.5rem;
+        top:15rem;
         background-color:#2a2828;
         border-radius:1rem;
         z-index:3;
-        max-height:60vh;
+        min-height:10vh;
         overflow-y:scroll;
     }
 
@@ -870,10 +870,10 @@
         /* margin:auto; */
         background-color:#2a2828;
         left:7rem;
-        bottom:-2rem;
+        top:17rem;
         border-radius:1rem;
         z-index:3;
-        max-height:60vh;
+        min-height:10vh;
         overflow-y:scroll;
     }
     
@@ -1125,10 +1125,10 @@
         /* margin:auto; */
         background-color:#2a2828;
         left:9rem;
-        top:22rem;
+        top:18rem;
         border-radius:1rem;
         z-index:3;
-        max-height:60vh;
+        min-height:10vh;
         overflow-y:scroll;
     }
     
@@ -1378,10 +1378,10 @@
         /* margin:auto; */
         background-color:#2a2828;
         left:12rem;
-        top:20rem;
+        top:19rem;
         border-radius:1rem;
         z-index:3;
-        max-height:60vh;
+        min-height:10vh;
         overflow-y:scroll;
     }
     
@@ -1631,11 +1631,11 @@
         /* margin:auto; */
         background-color:#2a2828;
         left:12rem;
-        top:22rem;
+        top:19rem;
         bottom:-4.5rem;
         border-radius:1rem;
         z-index:3;
-        max-height:60vh;
+        min-height:10vh;
         overflow-y:scroll;
     }
     
@@ -1901,9 +1901,10 @@
     /* margin:auto; */
     background-color:#2a2828;
     left:12rem;
+    top:20rem;
     border-radius:1rem;
     z-index:3;
-    max-height:60vh;
+    min-height:10vh;
     overflow-y:scroll;
 }
 
