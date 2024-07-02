@@ -139,7 +139,7 @@ const products = () => {
         let searchProducts = obtainedProducts.filter((newObtained) => 
               // find me the newObtained.title.first occurence of what I typed that is not equal to -1
               // -1 is what it renders when the data matching what I typed isn't found
-              newObtained.title.toLowerCase().indexOf(result) != -1
+              newObtained.title.toLowerCase().indexOf(result.toLowerCase()) != -1
         )
         console.log(searchProducts);
         if (searchProducts < [0]) {

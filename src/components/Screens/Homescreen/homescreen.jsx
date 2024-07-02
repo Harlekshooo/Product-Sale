@@ -47,6 +47,7 @@ const First = () => {
     dispatch(loggedIn(false))
   }
 
+  console.log('d', loggedIn);
   
 
   return (
@@ -63,7 +64,7 @@ const First = () => {
             // loggedInUser has been originally set to true above
             // If loggedInUser is true it will display the login button
             <NavLink to="" onClick={handleLogOut}>
-              <div className="login">Log out</div>
+              <div className="login">Log out{loggedIn}</div>
             </NavLink>
           ) : (
             
