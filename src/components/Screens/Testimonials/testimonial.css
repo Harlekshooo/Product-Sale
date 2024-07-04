@@ -32,7 +32,7 @@
     margin:auto;
     display:flex;
     flex-direction:column;
-    height:90vh;
+    height:88vh;
     justify-content:start;
     align-items:center;
 }
@@ -199,7 +199,7 @@
         margin:auto;
         display:flex;
         flex-direction:column;
-        height:83vh;
+        height:81vh;
         justify-content:start;
         align-items:center;
     }
