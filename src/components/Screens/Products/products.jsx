@@ -250,7 +250,6 @@ const products = () => {
             );
           })}
         </div>
-        <h2 className="bottomLine">card color inspiration; courtesy of: EFUNKUNLE OLUWAMAYOWA VICTOR</h2>
       </div>
     </div>
   );

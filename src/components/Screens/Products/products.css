@@ -238,26 +238,15 @@
     color:#b9b8b8;
 }
 
-.bottomLine{
-    font-size:1.2rem;
-    text-transform:capitalize;
-    color:#050c6e;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
 .addedItem{
     width:100%;
     height:2.7rem;
     font-size:1.1rem;
     text-transform:uppercase;
-    background-color: #b9b8b8;
+    background-color:#090e73;
+    color:#dad4d4;
     font-weight:600;
     border-radius:1rem;
-}
-
-.addedItem:hover{
-    background-color:#494848;
-    color:#dad4d4;
 }
 
 
@@ -507,26 +496,15 @@
         color:#b9b8b8;
     }
 
-    .bottomLine{
-        font-size:1.2rem;
-        text-transform:capitalize;
-        color:#050c6e;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-
     .addedItem{
         width:100%;
         height:3.1rem;
         font-size:1.2rem;
         text-transform:uppercase;
-        background-color: #b9b8b8;
+        background-color:#090e73;
+        color:#dad4d4;
         font-weight:600;
         border-radius:1rem;
-    }
-    
-    .addedItem:hover{
-        background-color:#494848;
-        color:#dad4d4;
     }
 }
 
@@ -779,26 +757,15 @@
         color:#b9b8b8;
     }
 
-    .bottomLine{
-        font-size:1.2rem;
-        text-transform:capitalize;
-        color:#050c6e;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-
     .addedItem{
         width:100%;
         height:3.1rem;
         font-size:1.3rem;
         text-transform:uppercase;
-        background-color: #b9b8b8;
+        background-color:#090e73;
+        color:#dad4d4;
         font-weight:600;
         border-radius:1rem;
-    }
-    
-    .addedItem:hover{
-        background-color:#494848;
-        color:#dad4d4;
     }
 }
 
@@ -831,7 +798,7 @@
     
     .productContent button:hover{
         cursor:pointer;
-        background-color:#212dda8e;
+        background-color:#0f1138;
         transition:all linear 0.4s;
     }
     
@@ -1034,27 +1001,16 @@
         padding-right:1rem;
         color:#b9b8b8;
     }
-    
-    .bottomLine{
-        text-transform:capitalize;
-        color:#050c6e;
-        font-size:33px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
 
     .addedItem{
         width:100%;
         height:3.2rem;
         font-size:1.2rem;
         text-transform:uppercase;
-        background-color: #b9b8b8;
+        background-color:#090e73;
+        color:#dad4d4;
         font-weight:600;
         border-radius:1rem;
-    }
-    
-    .addedItem:hover{
-        background-color:#494848;
-        color:#dad4d4;
     }
 }
 
@@ -1087,7 +1043,7 @@
     
     .productContent button:hover{
         cursor:pointer;
-        background-color:#212dda8e;
+        background-color:#0f1138;
         transition:all linear 0.4s;
     }
     
@@ -1289,26 +1245,15 @@
         color:#b9b8b8;
     }
     
-    .bottomLine{
-        text-transform:capitalize;
-        color:#050c6e;
-        font-size:33px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-
     .addedItem{
         width:100%;
         height:3.2rem;
         font-size:1.2rem;
         text-transform:uppercase;
-        background-color: #b9b8b8;
+        background-color:#090e73;
+        color:#dad4d4;
         font-weight:600;
         border-radius:1rem;
-    }
-    
-    .addedItem:hover{
-        background-color:#494848;
-        color:#dad4d4;
     }
 }
 
@@ -1341,7 +1286,7 @@
     
     .productContent button:hover{
         cursor:pointer;
-        background-color:#212dda8e;
+        background-color:#0f1138;
         transition:all linear 0.4s;
     }
     
@@ -1541,27 +1486,16 @@
         padding-right:1rem;
         color:#b9b8b8;
     }
-    
-    .bottomLine{
-        text-transform:capitalize;
-        color:#050c6e;
-        font-size:33px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
 
     .addedItem{
         width:100%;
         height:3.3rem;
         font-size:1.3rem;
         text-transform:uppercase;
-        background-color: #b9b8b8;
+        background-color:#090e73;
+        color:#dad4d4;
         font-weight:600;
         border-radius:1rem;
-    }
-    
-    .addedItem:hover{
-        background-color:#494848;
-        color:#dad4d4;
     }
 }
 
@@ -1594,7 +1528,7 @@
     
     .productContent button:hover{
         cursor:pointer;
-        background-color:#212dda8e;
+        background-color:#0f1138;
         transition:all linear 0.4s;
     }
     
@@ -1796,26 +1730,15 @@
         color:#b9b8b8;
     }
     
-    .bottomLine{
-        text-transform:capitalize;
-        color:#050c6e;
-        font-size:33px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-
     .addedItem{
         width:100%;
         height:3.4rem;
         font-size:1.4rem;
         text-transform:uppercase;
-        background-color: #b9b8b8;
+        background-color:#090e73;
+        color:#dad4d4;
         font-weight:600;
         border-radius:1rem;
-    }
-    
-    .addedItem:hover{
-        background-color:#494848;
-        color:#dad4d4;
     }
 }
 
@@ -1861,7 +1784,7 @@
 
 .productContent button:hover{
     cursor:pointer;
-    background-color:#212dda8e;
+    background-color:#0f1138;
     transition:all linear 0.4s;
 }
 
@@ -2064,26 +1987,15 @@
     color:#b9b8b8;
 }
 
-.bottomLine{
-    text-transform:capitalize;
-    color:#050c6e;
-    font-size:33px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
 .addedItem{
     width:100%;
     height:3.5rem;
     font-size:1.5rem;
     text-transform:uppercase;
-    background-color: #b9b8b8;
+    background-color:#090e73;
+    color:#dad4d4;
     font-weight:600;
     border-radius:1rem;
-}
-
-.addedItem:hover{
-    background-color:#494848;
-    color:#dad4d4;
 }
 
 }
